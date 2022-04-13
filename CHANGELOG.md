@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/timoa/terraform-module-gcp-template/compare/1.1.0...1.1.1) (2022-04-13)
+
+
+### Bug Fixes
+
+* **cicd:** fix the unsupported mix of upper and lower case on env. vars ([01b969f](https://github.com/timoa/terraform-module-gcp-template/commit/01b969f039503b5159fd1bf1e3368b069931e38f))
+* **provider:** add missing API to activate when using a Google Service Account to auth ([6d1eabe](https://github.com/timoa/terraform-module-gcp-template/commit/6d1eabe13e316383bfcd397f4350c399deb58c1e))
+
 # [1.1.0](https://github.com/timoa/terraform-module-gcp-template/compare/1.0.2...1.1.0) (2022-04-13)
 
 
