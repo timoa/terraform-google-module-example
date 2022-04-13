@@ -24,6 +24,12 @@ jobs:
         id: init
         run: terraform init
 
+      - name: Terraform Plan
+        id: apply
+        run: terraform plan
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+
 
   # -- SAST SCAN --------------------------------------------------------------
   code-security:
