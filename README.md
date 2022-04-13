@@ -24,7 +24,7 @@ If you want to use this module inside your project, you can use the following co
 
 ```bash
 module "module-template" {
-  source = "git::https://github.com/timoa/terraform-module-template.git?ref=tags/0.0.2"
+  source = "git::https://github.com/timoa/terraform-module-gcp-template.git?ref=tags/0.0.2"
 
   # Required
   project_id = "my-project-id"
