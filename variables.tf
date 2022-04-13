@@ -43,7 +43,8 @@ variable "activate_apis" {
   type        = list(string)
   description = "Activate the GCP APIs"
   default = [
-    "compute.googleapis.com"
+    "compute.googleapis.com",             # To get the list of available zones
+    "cloudresourcemanager.googleapis.com" # To be able to use a Google Service Account for the CI/CD
   ]
 }
 

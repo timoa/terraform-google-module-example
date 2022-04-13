@@ -36,7 +36,7 @@ module "module-template" {
 }
 ```
 
-## Output example
+### Output example
 
 ```bash
 terraform init
@@ -98,7 +98,7 @@ Changes to Outputs:
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_activate_apis"></a> [activate\_apis](#input\_activate\_apis) | Activate the GCP APIs | `list(string)` | <pre>[<br>  "compute.googleapis.com"<br>]</pre> | no |
+| <a name="input_activate_apis"></a> [activate\_apis](#input\_activate\_apis) | Activate the GCP APIs | `list(string)` | <pre>[<br>  "compute.googleapis.com",<br>  "cloudresourcemanager.googleapis.com"<br>]</pre> | no |
 | <a name="input_labels"></a> [labels](#input\_labels) | Default labels to associate to these resources | `map(string)` | <pre>{<br>  "businessunit": "mycompany",<br>  "team": "devops",<br>  "terraform": "true"<br>}</pre> | no |
 | <a name="input_location"></a> [location](#input\_location) | Location of the resources | `string` | `"US"` | no |
 | <a name="input_namespace"></a> [namespace](#input\_namespace) | Project name that will be use to identifiy the resources | `string` | `"my-project"` | no |
