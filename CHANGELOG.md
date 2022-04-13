@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/timoa/terraform-module-gcp-template/compare/1.0.1...1.0.2) (2022-04-13)
+
+
+### Bug Fixes
+
+* **provider:** pin the Google provider version to 4.16.0 ([c23068e](https://github.com/timoa/terraform-module-gcp-template/commit/c23068e25189bc145c7823762d8f48a07dd550b6))
+
 ## [1.0.1](https://github.com/timoa/terraform-module-gcp-template/compare/1.0.0...1.0.1) (2022-04-13)
 
 
