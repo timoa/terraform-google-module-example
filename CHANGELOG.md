@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/timoa/terraform-module-gcp-template/compare/1.0.0...1.0.1) (2022-04-13)
+
+
+### Bug Fixes
+
+* **provider:** fix version format ([c171272](https://github.com/timoa/terraform-module-gcp-template/commit/c1712727b2407b4ee45143dfbf43c487ea1e34c0))
+
 # 1.0.0 (2022-04-13)
 
 
