@@ -10,7 +10,7 @@ variable "project_id" {
 variable "namespace" {
   type        = string
   description = "Project name that will be use to identifiy the resources"
-  default     = "myproject"
+  default     = "my-project"
 }
 
 variable "stage" {
@@ -33,6 +33,18 @@ variable "region" {
   type        = string
   description = "Default Region"
   default     = "us-east1"
+}
+
+#############################
+# IAM
+#############################
+
+variable "activate_apis" {
+  type        = list(string)
+  description = "Activate the GCP APIs"
+  default = [
+    "compute.googleapis.com"
+  ]
 }
 
 #############################
