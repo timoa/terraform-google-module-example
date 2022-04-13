@@ -44,10 +44,20 @@ terraform plan
 ```
 
 ```bash
-Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
   + create
 
 Terraform will perform the following actions:
+
+  # module.project_factory_project_services.google_project_service.project_services["cloudresourcemanager.googleapis.com"] will be created
+  + resource "google_project_service" "project_services" {
+      + disable_dependent_services = true
+      + disable_on_destroy         = false
+      + id                         = (known after apply)
+      + project                    = "my-project-id"
+      + service                    = "cloudresourcemanager.googleapis.com"
+    }
 
   # module.project_factory_project_services.google_project_service.project_services["compute.googleapis.com"] will be created
   + resource "google_project_service" "project_services" {
@@ -58,7 +68,7 @@ Terraform will perform the following actions:
       + service                    = "compute.googleapis.com"
     }
 
-Plan: 1 to add, 0 to change, 0 to destroy.
+Plan: 2 to add, 0 to change, 0 to destroy.
 
 Changes to Outputs:
   + available_zones = [
