@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/timoa/terraform-module-gcp-template/compare/1.0.2...1.1.0) (2022-04-13)
+
+
+### Features
+
+* **iam:** activate the required GCP API + get the available zones for a GCP region ([8ba6982](https://github.com/timoa/terraform-module-gcp-template/commit/8ba69823673f3344b725114248996203575d905a))
+
 ## [1.0.2](https://github.com/timoa/terraform-module-gcp-template/compare/1.0.1...1.0.2) (2022-04-13)
 
 
