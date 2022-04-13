@@ -29,6 +29,7 @@ jobs:
         run: terraform plan
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          TF_VAR_project_id: ${{ secrets.TF_VAR_PROJECT_ID }}
 
 
   # -- SAST SCAN --------------------------------------------------------------
