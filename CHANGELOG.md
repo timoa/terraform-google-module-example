@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/timoa/terraform-module-gcp-example/compare/v1.2.1...v1.3.0) (2022-04-14)
+
+
+### Features
+
+* **docs:** generate the documentation with CI/CD instead of pre-commit ([2e026b3](https://github.com/timoa/terraform-module-gcp-example/commit/2e026b340c06d05f046b2f3874687e43c63bf4e0))
+
 ## [1.2.1](https://github.com/timoa/terraform-module-gcp-example/compare/v1.2.0...v1.2.1) (2022-04-14)
 
 
