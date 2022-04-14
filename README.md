@@ -1,4 +1,4 @@
-# Terraform Module GCP Template
+# Terraform Module GCP example
 
 [![Latest Release][release-badge]][release-url]
 [![Build Status][github-badge]][github-url]
