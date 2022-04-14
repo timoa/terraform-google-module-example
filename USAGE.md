@@ -10,7 +10,7 @@
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_project_factory_project_services"></a> [project\_factory\_project\_services](#module\_project\_factory\_project\_services) | terraform-google-modules/project-factory/google//modules/project_services | 11.3.1 |
+| <a name="module_project_factory_project_services"></a> [project\_factory\_project\_services](#module\_project\_factory\_project\_services) | terraform-google-modules/project-factory/google//modules/project_services | 12.0.0 |
 
 ## Resources
 
