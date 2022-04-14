@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/timoa/terraform-module-gcp-example/compare/v1.2.0...v1.2.1) (2022-04-14)
+
+
+### Bug Fixes
+
+* **project:** change project name ([fa20bcc](https://github.com/timoa/terraform-module-gcp-example/commit/fa20bcc660ad7f87f3565e9aa0a431fc98f9758d))
+
 # [1.2.0](https://github.com/timoa/terraform-module-gcp-example/compare/v1.1.1...v1.2.0) (2022-04-13)
 
 
