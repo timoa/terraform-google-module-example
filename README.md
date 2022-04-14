@@ -33,7 +33,7 @@ If you want to use this module inside your project, you can use the following co
 
 ```bash
 module "module-template" {
-  source = "git::https://github.com/timoa/terraform-module-gcp-template.git?ref=tags/0.0.2"
+  source = "git::https://github.com/timoa/terraform-module-gcp-example.git?ref=tags/0.0.2"
 
   # Required
   project_id = "my-project-id"
@@ -132,12 +132,12 @@ Changes to Outputs:
 | <a name="output_available_zones"></a> [available\_zones](#output\_available\_zones) | Return the list of available zones |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-[github-badge]: https://github.com/timoa/terraform-module-gcp-template/workflows/Terraform/badge.svg
-[github-url]: https://github.com/timoa/terraform-module-gcp-template/actions?query=workflow%3ATerraform
-[release-badge]: https://img.shields.io/github/release/timoa/terraform-module-gcp-template.svg
-[release-url]: https://github.com/timoa/terraform-module-gcp-template/releases/latest
-[license-badge]: https://img.shields.io/github/license/timoa/terraform-module-gcp-template.svg
-[license-url]: https://github.com/timoa/terraform-module-gcp-template/blob/main/LICENSE
+[github-badge]: https://github.com/timoa/terraform-module-gcp-example/workflows/Terraform/badge.svg
+[github-url]: https://github.com/timoa/terraform-module-gcp-example/actions?query=workflow%3ATerraform
+[release-badge]: https://img.shields.io/github/release/timoa/terraform-module-gcp-example.svg
+[release-url]: https://github.com/timoa/terraform-module-gcp-example/releases/latest
+[license-badge]: https://img.shields.io/github/license/timoa/terraform-module-gcp-example.svg
+[license-url]: https://github.com/timoa/terraform-module-gcp-example/blob/main/LICENSE
 [pre-commit-url]: https://pre-commit.com/
 [semantic-release-url]: https://semantic-release.gitbook.io/semantic-release/
 [renovate-url]: https://www.whitesourcesoftware.com/free-developer-tools/renovate/
