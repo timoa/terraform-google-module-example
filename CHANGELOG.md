@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/timoa/terraform-module-gcp-example/compare/v1.3.0...v1.3.1) (2022-04-17)
+
+
+### Bug Fixes
+
+* **cicd:** fix the code review workflow + rename file ([6a65c52](https://github.com/timoa/terraform-module-gcp-example/commit/6a65c52758e42412fbeb0cf074968c744d1bf027))
+
 # [1.3.0](https://github.com/timoa/terraform-module-gcp-example/compare/v1.2.1...v1.3.0) (2022-04-14)
 
 
