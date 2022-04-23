@@ -1,5 +1,5 @@
 {
-  "repositoryUrl": "https://github.com/timoa/terraform-module-gcp-example.git",
+  "repositoryUrl": "https://github.com/timoa/terraform-google-module-example.git",
   "branches": [
     "main"
   ],

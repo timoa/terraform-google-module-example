@@ -1,4 +1,4 @@
-# Terraform Module GCP example
+# Terraform Google module example
 
 [![Latest Release][release-badge]][release-url]
 [![Build Status][github-badge]][github-url]
@@ -33,7 +33,7 @@ If you want to use this module inside your project, you can use the following co
 
 ```bash
 module "module-template" {
-  source = "git::https://github.com/timoa/terraform-module-gcp-example.git?ref=tags/0.0.2"
+  source = "git::https://github.com/timoa/terraform-google-module-example.git?ref=tags/0.0.2"
 
   # Required
   project_id = "my-project-id"
@@ -87,12 +87,12 @@ Changes to Outputs:
     ]
 ```
 
-[github-badge]: https://github.com/timoa/terraform-module-gcp-example/workflows/Terraform/badge.svg
-[github-url]: https://github.com/timoa/terraform-module-gcp-example/actions?query=workflow%3ATerraform
-[release-badge]: https://img.shields.io/github/release/timoa/terraform-module-gcp-example.svg
-[release-url]: https://github.com/timoa/terraform-module-gcp-example/releases/latest
-[license-badge]: https://img.shields.io/github/license/timoa/terraform-module-gcp-example.svg
-[license-url]: https://github.com/timoa/terraform-module-gcp-example/blob/main/LICENSE
+[github-badge]: https://github.com/timoa/terraform-google-module-example/workflows/Terraform/badge.svg
+[github-url]: https://github.com/timoa/terraform-google-module-example/actions?query=workflow%3ATerraform
+[release-badge]: https://img.shields.io/github/release/timoa/terraform-google-module-example.svg
+[release-url]: https://github.com/timoa/terraform-google-module-example/releases/latest
+[license-badge]: https://img.shields.io/github/license/timoa/terraform-google-module-example.svg
+[license-url]: https://github.com/timoa/terraform-google-module-example/blob/main/LICENSE
 [pre-commit-url]: https://pre-commit.com/
 [semantic-release-url]: https://semantic-release.gitbook.io/semantic-release/
 [renovate-url]: https://www.whitesourcesoftware.com/free-developer-tools/renovate/
