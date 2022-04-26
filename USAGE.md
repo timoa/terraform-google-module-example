@@ -4,7 +4,7 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
-| <a name="requirement_google"></a> [google](#requirement\_google) | 4.17.0 |
+| <a name="requirement_google"></a> [google](#requirement\_google) | 4.18.0 |
 
 ## Modules
 
@@ -16,7 +16,7 @@
 
 | Name | Type |
 |------|------|
-| [google_compute_zones.available](https://registry.terraform.io/providers/hashicorp/google/4.17.0/docs/data-sources/compute_zones) | data source |
+| [google_compute_zones.available](https://registry.terraform.io/providers/hashicorp/google/4.18.0/docs/data-sources/compute_zones) | data source |
 
 ## Inputs
 
