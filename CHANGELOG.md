@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/timoa/terraform-google-module-example/compare/v1.3.1...v1.3.2) (2022-05-05)
+
+
+### Bug Fixes
+
+* **cicd:** force checkout of the main branch during release to get latest changes ([f54779a](https://github.com/timoa/terraform-google-module-example/commit/f54779a693517876b5ad7e6e1ae1d0c94a4b15eb))
+
 ## [1.3.1](https://github.com/timoa/terraform-google-module-example/compare/v1.3.0...v1.3.1) (2022-04-17)
 
 
