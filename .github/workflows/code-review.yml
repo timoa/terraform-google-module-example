@@ -6,7 +6,7 @@ jobs:
 
   # -- LINT -------------------------------------------------------------------
   tflint:
-    name: runner / tflint
+    name: TFLint
     runs-on: ubuntu-latest
 
     steps:
@@ -34,7 +34,7 @@ jobs:
 
   # -- SECURITY ---------------------------------------------------------------
   tfsec:
-    name: runner / tfsec
+    name: TFSec
     runs-on: ubuntu-latest
 
     steps:
