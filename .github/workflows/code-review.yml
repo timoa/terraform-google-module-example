@@ -9,6 +9,10 @@ jobs:
     name: TFLint
     runs-on: ubuntu-latest
 
+    env:
+      GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+      TF_VAR_project_id: ${{ secrets.TF_VAR_PROJECT_ID }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
@@ -36,6 +40,10 @@ jobs:
   tfsec:
     name: TFSec
     runs-on: ubuntu-latest
+
+    env:
+      GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+      TF_VAR_project_id: ${{ secrets.TF_VAR_PROJECT_ID }}
 
     steps:
       - name: Checkout
