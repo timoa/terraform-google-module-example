@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/timoa/terraform-google-module-example/compare/v1.3.4...v1.3.5) (2022-06-21)
+
+
+### Bug Fixes
+
+* **cicd:** update the label name for the dependencies ([fbf505f](https://github.com/timoa/terraform-google-module-example/commit/fbf505fea58bf9335af6691a5af14f2e9006620a))
+
 ## [1.3.4](https://github.com/timoa/terraform-google-module-example/compare/v1.3.3...v1.3.4) (2022-05-12)
 
 
