@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/timoa/terraform-google-module-example/compare/v1.3.5...v1.3.6) (2023-04-17)
+
+
+### Bug Fixes
+
+* **cicd:** fix Terraform install ([653c242](https://github.com/timoa/terraform-google-module-example/commit/653c24214edf54272d827ee0ca3d5fd87880caa2))
+
 ## [1.3.5](https://github.com/timoa/terraform-google-module-example/compare/v1.3.4...v1.3.5) (2022-06-21)
 
 
