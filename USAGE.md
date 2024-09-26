@@ -27,8 +27,8 @@
 | <a name="input_stage"></a> [stage](#input\_stage) | Stage/environment name to tag and suffix the infrastructure composants | `string` | `"dev"` | no |
 | <a name="input_location"></a> [location](#input\_location) | Location of the resources | `string` | `"US"` | no |
 | <a name="input_region"></a> [region](#input\_region) | Default Region | `string` | `"us-east1"` | no |
-| <a name="input_activate_apis"></a> [activate\_apis](#input\_activate\_apis) | Activate the GCP APIs | `list(string)` | <pre>[<br>  "compute.googleapis.com",<br>  "cloudresourcemanager.googleapis.com"<br>]</pre> | no |
-| <a name="input_labels"></a> [labels](#input\_labels) | Default labels to associate to these resources | `map(string)` | <pre>{<br>  "businessunit": "mycompany",<br>  "team": "devops",<br>  "terraform": "true"<br>}</pre> | no |
+| <a name="input_activate_apis"></a> [activate\_apis](#input\_activate\_apis) | Activate the GCP APIs | `list(string)` | <pre>[<br/>  "compute.googleapis.com",<br/>  "cloudresourcemanager.googleapis.com"<br/>]</pre> | no |
+| <a name="input_labels"></a> [labels](#input\_labels) | Default labels to associate to these resources | `map(string)` | <pre>{<br/>  "businessunit": "mycompany",<br/>  "team": "devops",<br/>  "terraform": "true"<br/>}</pre> | no |
 
 ## Outputs
 
